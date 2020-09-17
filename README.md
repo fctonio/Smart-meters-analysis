@@ -18,15 +18,14 @@ The goal of this project is to create and interprete different types of visualiz
 
 ## Dataset
 
-For this project, we used several datasets from Kaggle on Energy consumption in london, weather a that time and Acorn groups. We downloaded the following datasets from Kaggle and used statistical analysis skills to analyze this dataset:<br>
+For this project, we used several datasets from Kaggle looking at energy consumption in London, weather conditions over the same period and Acorn groups. We downloaded the following datasets from Kaggle and used statistical analysis skills to analyze this dataset:<br>
 <br>
 - acorn_details.csv<br>
 - daily_dataset.csv<br>
 - weather_daily_darksky.csv<br>
 - informations_households.csv<br>
 <br>
-The Datasets can be downloaded from the following link: https://www.kaggle.com/jeanmidev/smart-meters-in-london?select=daily_dataset.csv.gz
-
+The Datasets can be downloaded from the following link: https://www.kaggle.com/jeanmidev/smart-meters-in-london
 
 ## Workflow
 
@@ -49,14 +48,21 @@ In the repository you will find several files and a Folder:<br>
 -> Average_weekday_consumption.ipynb : Calculates and Plots the average weekday consumption<br>
 -> Concat_blocks.ipynb : <br>
 -> Merge_weather-daily_data.ipynb: Used to merge weather_daily_darksky.csv with daily_dataset.csv and export as daily_weather_merged.csv<br>
--> Linear_regression_visualisation.ipynb : Checking correlation from temperature and daytime with energy consumption and building an OLS-Model and scatterplot<br>
--> Dataset_analysis_cleaning.ipynb :<br>
--> Merge_dailydata_households_acorn.ipynb :<br>
--> Modified_Regression_model.ipynb : <br>
+-> Linear_regression_visualisation.ipynb : Looks into potential correlation between energy consumption and consumer demographics<br>
+-> Dataset_analysis_cleaning.ipynb : initial cleaning of the original datasets<br>
+-> Merge_dailydata_households_acorn.ipynb : merges 3 of the datasets to enable analysis of patterns/connections between them<br>
+-> Modified_Regression_model.ipynb : Checking correlation from temperature and daytime with energy consumption and building an OLS-Model and scatterplot<br>
 - Tableau (Folder) :<br>
 -> Tableau_merged_weather_Daily.twb : Tableau file with the graphs for the presentation.
 - .gitignore : To not push everything.<br>
 - README.md : That would be this beautiful file :P<br>
+
+## Potential improvements/future analysis
+
+- Look further into potential outliers
+- Exclude dates at the start of the testing period where the number of installed meters is small
+- Dive deeper into consumer demographics
+- Look at energy consumption by individual households
     
 ## Links
 [Repository](https://github.com/fctonio/Smart-meters-analysis)
