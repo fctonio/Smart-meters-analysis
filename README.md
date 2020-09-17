@@ -30,14 +30,14 @@ The Datasets can be downloaded from the following link: https://www.kaggle.com/j
 
 ## Workflow
 
-- First: We read the data into a DataFrame<br>
-- Second: I used basic pandas functions to familiarise myself with the data. (head(), shape, isnull().sum() ...)<br>
-- Deleted all unnecessary columns.<br>
-- wrote function to find the columns with a absolute correlation of at least 0.6. (I found 6 colums)<br>
-- I then made:<br> 
--> an OLS model all six Columns and checked the statistical relevance.<br>
--> an OLS model with four of the six Columns since they had the same unit and that way we could compare them between each other and check the statistical relevance. (Square feet)<br>
--> an OLS model all with only the column with the biggest corrolation and checked the statistical relevance
+- We chose the our data<br>
+- We used basic pandas functions to familiarise ourself with the data. (head(), shape, isnull().sum() ...)<br>
+- Made some basic visualisation with tableau to see if their is anything obvious.<br>
+- Merged the Datframes with each other.<br>
+- Checked the Corrolation of energy usage with different variables.<br>
+- We then made:<br> 
+-> a scatter plot and deleted the outliers.<br>
+-> an OLS model and checked the statistical relevance.<br>
 
 ## Organization
 
@@ -47,11 +47,12 @@ In the repository you will find several files and a Folder:<br>
 -> Download_link.md : Has the link to download the data<br>
 2 - Notebook (Folder) :<br>
 -> Average_weekday_consumption.ipynb : Calculates and Plots the average weekday consumption<br>
--> Merge Weather-Daily_data.ipynb : Used to merge weather_daily_darksky.csv with daily_dataset.csv and export as daily_weather_merged.csv<br>
--> Modified_Regression_model.ipynb : Checking correlation from temperature and daytime with energy consumption and building an OLS-Model and scatterplot<br>
--> paul_dataset_analysis.ipynb :<br>
--> paul_linear_regression_visualisation.ipynb :<br>
--> paul_merge_dailydata_households_acorn.ipynb :<br>
+-> Concat_blocks.ipynb : <br>
+-> Merge_weather-daily_data.ipynb: Used to merge weather_daily_darksky.csv with daily_dataset.csv and export as daily_weather_merged.csv<br>
+-> Linear_regression_visualisation.ipynb : Checking correlation from temperature and daytime with energy consumption and building an OLS-Model and scatterplot<br>
+-> Dataset_analysis_cleaning.ipynb :<br>
+-> Merge_dailydata_households_acorn.ipynb :<br>
+-> Modified_Regression_model.ipynb : <br>
 3 - Tableau (Folder) :<br>
 -> Tableau_merged_weather_Daily.twb : Tableau file with the graphs for the presentation.
 4 - .gitignore : To not push everything.<br>
