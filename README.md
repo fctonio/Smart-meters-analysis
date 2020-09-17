@@ -43,9 +43,9 @@ The Datasets can be downloaded from the following link: https://www.kaggle.com/j
 
 In the repository you will find several files and a Folder:<br>
 <br>
-1 - Data (Folder) :<br>
+- Data (Folder) :<br>
 -> Download_link.md : Has the link to download the data<br>
-2 - Notebook (Folder) :<br>
+- Notebook (Folder) :<br>
 -> Average_weekday_consumption.ipynb : Calculates and Plots the average weekday consumption<br>
 -> Concat_blocks.ipynb : <br>
 -> Merge_weather-daily_data.ipynb: Used to merge weather_daily_darksky.csv with daily_dataset.csv and export as daily_weather_merged.csv<br>
@@ -53,10 +53,10 @@ In the repository you will find several files and a Folder:<br>
 -> Dataset_analysis_cleaning.ipynb :<br>
 -> Merge_dailydata_households_acorn.ipynb :<br>
 -> Modified_Regression_model.ipynb : <br>
-3 - Tableau (Folder) :<br>
+- Tableau (Folder) :<br>
 -> Tableau_merged_weather_Daily.twb : Tableau file with the graphs for the presentation.
-4 - .gitignore : To not push everything.<br>
-5 - README.md : That would be this beautiful file :P<br>
+- .gitignore : To not push everything.<br>
+- README.md : That would be this beautiful file :P<br>
     
 ## Links
 [Repository](https://github.com/fctonio/Smart-meters-analysis)
