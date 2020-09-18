@@ -54,6 +54,8 @@ In the repository you will find several files and a Folder:<br>
 -> Modified_Regression_model.ipynb : Checking correlation from temperature and daytime with energy consumption and building an OLS-Model and scatterplot<br>
 - Tableau (Folder) :<br>
 -> Tableau_merged_weather_Daily.twb : Tableau file with the graphs for the presentation.
+- Presentation (Folder) :<br>
+-> Contains draft and final version of the presentation as a PDF file.<br>
 - .gitignore : To not push everything.<br>
 - README.md : That would be this beautiful file :P<br>
 
