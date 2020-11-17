@@ -10,8 +10,8 @@
 - [Dataset](#dataset)
 - [Workflow](#workflow)
 - [Repository organisation](#repository-organisation)
-- [Results/findings](#results-findings)
-- [Potential improvements/future analysis](#potential-improvements-future-analysis)
+- [Results/findings](#resultsfindings)
+- [Potential improvements/future analysis](#potential-improvementsfuture-analysis)
 
 ## Project Description
 
@@ -40,6 +40,7 @@ We used statistical analysis skills to analyze these datasets, the resulting CSV
 <br>
 The created CSV files can be found here: https://drive.google.com/drive/folders/1Ku0PFKlWstaLbY0ine2Q_LnbC5SLzctG?usp=sharing
 <br>
+
 ## Workflow
 
 - We chose the our data<br>
